@@ -1,0 +1,9 @@
+@mixin font-stack($ff, $weight: normal) {
+  font-family: #{$ff}, Helvetica, Arial, sans-serif;
+  font-weight: $weight;
+}
+
+%font-200 { @include font-stack('Ubuntu', 200) }
+%font-300 { @include font-stack('Ubuntu', 300) }
+%font-500 { @include font-stack('Ubuntu', 500) }
+%font-700 { @include font-stack('Ubuntu', 700) }

@@ -1,0 +1,43 @@
+{
+  "name": "terraria_web_book",
+  "version": "1.0.0",
+  "description": "Terraria web book of items",
+  "author": "64mb",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "nuxt": "^2.15.8",
+    "vue-infinite-scroll": "^2.0.2",
+    "vue2-touch-events": "^2.2.1",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^7.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "babel-runtime": "^6.26.0",
+    "core-js": "^3.19.1",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^6.0.1",
+    "prettier": "^2.4.1",
+    "push-dir": "^0.4.1",
+    "sass-loader": "^10.2.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0"
+  }
+}
